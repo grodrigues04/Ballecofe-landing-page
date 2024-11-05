@@ -10,6 +10,8 @@ header{
     background-color: #1F1517;
     height: 68px;
     color: #FFF2E7;
+    position: relative; /* Necessário para o z-index */
+    z-index: 10; /* Valor mais alto para o header */
 }
 
 .header_text_navegation{
@@ -50,8 +52,12 @@ header{
 
 section{
     display: flex;
+    max-width: 1120px;
+    height: 60vh;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #181012;
+    padding: 0rem 14rem;
 }
 
 .section_container_text{
@@ -86,4 +92,24 @@ section{
     font-style: normal;
     letter-spacing: 1px;
     color: #C7BAB3;
+}
+
+.section_imgs_container{
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -5rem;
+    position: relative; /* Necessário para o z-index */
+    z-index: 1; /* Valor menor para ficar abaixo do header */
+}
+
+.section_imgs{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+article{
+    background-color: #23181A;
+    position: relative; /* Necessário para o z-index */
+    z-index: 5; /* Mesmo valor ou maior que o section */
 }
