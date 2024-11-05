@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+    background-color: #1f1517;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -89,7 +93,7 @@ section{
 }
 
 .section_about_text{
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight:300;
@@ -122,6 +126,7 @@ article{
 }
 
 .article_introduction{
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -129,6 +134,7 @@ article{
 }
 
 .article_introduction > h2{
+    font-size: 30px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 540;
@@ -224,6 +230,38 @@ article{
     text-align: center;
     color: #C7BAB3;
     font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #23181A;
+    height: 172px;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+footer > h5{
+    text-align: center;
+    color: #FFF2E7;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+}
+
+footer >p{
+    text-align: center;
+    color: #FFF2E7;
+    font-size: 13px;
+    opacity: 50%;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight:300;
