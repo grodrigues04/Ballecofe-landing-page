@@ -267,3 +267,31 @@ footer >p{
     font-weight:300;
     font-style: normal;
 }
+
+
+@media (max-width: 1463px){
+
+    section{
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .section_imgs_container{
+        display: none;
+    }
+    .coments_section{
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .people_coments_container{
+        height: 230px;
+        width: auto;
+    }
+}
